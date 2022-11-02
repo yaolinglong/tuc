@@ -1,0 +1,70 @@
+[2022-11-02 13:46:52] [36m[info] [0mdb_sha: a71c289c9423dd71a88d1fd9db48d51479a4beed8e013f9519c691f524613cff
+[2022-11-02 13:46:52] [36m[info] [0m当前程序运行版本： v1.0.36-beta2
+[2022-11-02 13:46:52] [36m[info] [0m正在检查更新.
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /                         --> github.com/johlanse/study_xxqg/web.RouterInit.func1 (4 handlers)
+[GIN-debug] GET    /about                    --> github.com/johlanse/study_xxqg/web.RouterInit.func2 (4 handlers)
+[GIN-debug] POST   /restart                  --> github.com/johlanse/study_xxqg/web.RouterInit.func3 (5 handlers)
+[GIN-debug] POST   /update                   --> github.com/johlanse/study_xxqg/web.RouterInit.func4 (5 handlers)
+[GIN-debug] POST   /auth/login               --> github.com/johlanse/study_xxqg/web.userLogin.func1 (4 handlers)
+[GIN-debug] POST   /auth/check/:token        --> github.com/johlanse/study_xxqg/web.checkToken.func1 (4 handlers)
+[GIN-debug] GET    /config                   --> github.com/johlanse/study_xxqg/web.configGet.func1 (5 handlers)
+[GIN-debug] POST   /config                   --> github.com/johlanse/study_xxqg/web.configSet.func1 (5 handlers)
+[GIN-debug] POST   /user                     --> github.com/johlanse/study_xxqg/web.addUser.func1 (5 handlers)
+[GIN-debug] GET    /user                     --> github.com/johlanse/study_xxqg/web.getUsers.func1 (5 handlers)
+[GIN-debug] DELETE /user                     --> github.com/johlanse/study_xxqg/web.deleteUser.func1 (5 handlers)
+[GIN-debug] GET    /score                    --> github.com/johlanse/study_xxqg/web.getScore.func1 (4 handlers)
+[GIN-debug] POST   /study                    --> github.com/johlanse/study_xxqg/web.study.func1 (4 handlers)
+[GIN-debug] POST   /stop_study               --> github.com/johlanse/study_xxqg/web.stopStudy.func1 (5 handlers)
+[GIN-debug] GET    /log                      --> github.com/johlanse/study_xxqg/web.getLog.func1 (5 handlers)
+[GIN-debug] GET    /sign/                    --> github.com/johlanse/study_xxqg/web.sign.func1 (4 handlers)
+[GIN-debug] GET    /login/*proxyPath         --> github.com/johlanse/study_xxqg/web.generate.func1 (4 handlers)
+[GIN-debug] POST   /login/*proxyPath         --> github.com/johlanse/study_xxqg/web.generate.func1 (5 handlers)
+[2022-11-02 13:46:52] [36m[info] [0m已开启web配置，web监听地址 ==> 0.0.0.0:8080
+[2022-11-02 13:46:52] [36m[info] [0m已采用普通学习模式
+[2022-11-02 13:46:52] [36m[info] [0m刷课模式，默认为1，
+ 1：只刷文章何视频
+ 2：只刷文章和视频和每日答题
+ 3：刷文章和视频和每日答题每周答题和专项答题
+[2022-11-02 13:46:52] [36m[info] [0m检测到模式 3
+[2022-11-02 13:46:53] [36m[info] [0m当前有更新的 study_xxqg 可供更新, 请前往 https://github.com/johlanse/study_xxqg/releases 下载.
+[2022-11-02 13:46:53] [36m[info] [0m当前版本: v1.0.36-beta2 最新版本: v1.0.38
+[2022-11-02 13:46:54] [33m[warn] [0m姚小凌龙的cookie已失效
+[2022-11-02 13:46:54] [36m[info] [0m未检测到有效用户信息，将采用登录模式
+[2022-11-02 13:46:54] [36m[info] [0mqr:A4C4209B-5D12-48D0-8FBF-8D83709B6E92
+[2022-11-02 13:46:54] [36m[info] [0m二维码已生成到目录下的qrcode.png
+[2022-11-02 13:46:54] [36m[info] [0mqr:1B030D3F-D2AC-498E-A3C2-D6B55C4A08F7
+[2022-11-02 13:46:54] [36m[info] [0m二维码已生成到目录下的qrcode.png
+[2022-11-02 13:47:12] [36m[info] [0m开始加载文章学习模块
+[2022-11-02 13:47:12] [36m[info] [0m当前学习总积分：837  今日得分：1
+[2022-11-02 13:47:12] [INFO]: 登录：1/1  文章学习：0/12  视频学习：0/6  视频时长：0/6
+[2022-11-02 13:47:12] [INFO]: 每日答题：0/5  每周答题：0/5   专项答题：0/1
+[2022-11-02 13:47:14] [36m[info] [0m正在学习文章：习近平指示即派我国政府特使赴马来西亚处理客机失联事件
+[2022-11-02 13:47:14] [36m[info] [0m文章发布时间：2014-03-25 10:00:00
+[2022-11-02 13:47:14] [36m[info] [0m文章学习链接：https://www.xuexi.cn/6659651508fed672433fd47d10a824fd/e43e220633a65f9b6d8b53712cba9caa.html
+[2022-11-02 13:48:28] [36m[info] [0m当前学习总积分：839  今日得分：3
+[2022-11-02 13:48:28] [INFO]: 登录：1/1  文章学习：2/12  视频学习：0/6  视频时长：0/6
+[2022-11-02 13:48:28] [INFO]: 每日答题：0/5  每周答题：0/5   专项答题：0/1
+[2022-11-02 13:48:29] [36m[info] [0m正在学习文章：习近平对做好“三农”工作作出重要指示
+[2022-11-02 13:48:29] [36m[info] [0m文章发布时间：2016-12-20 00:00:00
+[2022-11-02 13:48:29] [36m[info] [0m文章学习链接：https://www.xuexi.cn/4efdd762a6781e78a79804605f54d8ec/e43e220633a65f9b6d8b53712cba9caa.html
+[2022-11-02 13:49:43] [36m[info] [0m当前学习总积分：841  今日得分：5
+[2022-11-02 13:49:43] [INFO]: 登录：1/1  文章学习：4/12  视频学习：0/6  视频时长：0/6
+[2022-11-02 13:49:43] [INFO]: 每日答题：0/5  每周答题：0/5   专项答题：0/1
+[2022-11-02 13:49:43] [36m[info] [0m正在学习文章：习近平就做好艾滋病防治工作作出重要指示
+[2022-11-02 13:49:43] [36m[info] [0m文章发布时间：2013-11-30 11:00:00
+[2022-11-02 13:49:43] [36m[info] [0m文章学习链接：https://www.xuexi.cn/8e589ef316231a12cae83eee1b72c959/e43e220633a65f9b6d8b53712cba9caa.html
+[2022-11-02 13:50:52] [36m[info] [0m当前学习总积分：843  今日得分：7
+[2022-11-02 13:50:52] [INFO]: 登录：1/1  文章学习：6/12  视频学习：0/6  视频时长：0/6
+[2022-11-02 13:50:52] [INFO]: 每日答题：0/5  每周答题：0/5   专项答题：0/1
+[2022-11-02 13:50:52] [36m[info] [0m正在学习文章：习近平对江苏昆山“8·2”爆炸事故作出重要指示
+[2022-11-02 13:50:52] [36m[info] [0m文章发布时间：2014-08-02 11:00:00
+[2022-11-02 13:50:52] [36m[info] [0m文章学习链接：https://www.xuexi.cn/0488a1703a5eb1655d6d0dec62bb3dd5/e43e220633a65f9b6d8b53712cba9caa.html
+[2022-11-02 13:52:01] [31m[erro] [0mtime out
